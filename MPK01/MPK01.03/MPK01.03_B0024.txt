@@ -1,0 +1,21 @@
+
+Release notes
+=============
+
+MPK01.03 Build 0024
+-------------------
+
+DFU for Logitech K780 Multi-Device Wireless Keyboards with firmware MPK01.xx.
+
+Firmware
+ - Name: MPK01
+   Version: 03
+   Unifying identifier: 405B
+
+Boot-loader
+ - Name: BOT25
+   Version: any
+
+Modification(s)
+ - Fix compatibility with Unifying receivers (dongles) RQR12.xx (xx >= 08)
+   and RQR24.xx (xx >= 06).

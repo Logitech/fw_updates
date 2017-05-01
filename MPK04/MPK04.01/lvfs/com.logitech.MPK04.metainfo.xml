@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Logitech -->
+<component type="firmware">
+  <id>com.logitech.MPK04.firmware</id>
+  <name>Logitech K850 Performance Wireless Keyboards</name>
+  <summary>Firmware for the K850 keyboard (MPK04.xx)</summary>
+  <description>
+    <p>
+      The K850 is a keyboard that allows switching among three paired hosts.
+    </p>
+  </description>
+  <provides>
+    <!-- UFY\VID_046D&PID_4062 -->
+    <firmware type="flashed">5b54a6ee-8100-50ee-b070-721ad07aa502</firmware>
+  </provides>
+  <url type="homepage">http://www.logitech.com/en-us/product/mk850-wireless-keyboard-mouse-combo</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Proprietary</project_license>
+  <developer_name>Logitech</developer_name>
+  <releases>
+    <release urgency="high" version="MPK04.01_B0010" date="2017-06-26">
+      <checksum filename="MPK04.01_B0010.dfu" target="content"/>
+      <description>
+        <p>
+          This firmware update is required to render the K850 fully
+          compatible with Unifying receivers with firmwares RQR12.xx where
+          (xx >= 08) and RQR24.xx where (xx >= 06).
+        </p>
+      </description>
+    </release>
+  </releases>
+
+  <!-- only newer versions of fwupd know how to write to this hardware -->
+  <requires>
+    <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
+  </requires>
+
+</component>

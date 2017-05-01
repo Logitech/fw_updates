@@ -1,0 +1,29 @@
+
+Release notes
+=============
+
+RQR24.03 Build 0027
+-------------------
+
+DFU for Logitech Unifying receivers (dongles) with firmware RQR24.xx and
+boot-loader BOT03.yy (yy <= 01).
+
+Firmware
+ - Name: RQR24
+   Version: 03
+   USB identifier: 046D/C52B/2403 (Vendor id./Product id./BCD release)
+
+Required boot-loader
+ - Name: BOT03
+   Version: yy <= 01
+   USB identifier: 046D/AAAC/03yy (Vendor id./Product id./BCD release)
+                   046D/AAAD/03yy (Vendor id./Product id./BCD release)
+
+Incompatible Unifying device(s)
+ - None
+
+Modification(s)
+ - Address Bastille security issue #2 keystroke injection:
+   https://github.com/BastilleResearch/mousejack/blob/master/doc/advisories/bastille-2.logitech.public.txt
+ - Address Bastille security issue #3 fake mouse:
+   https://github.com/BastilleResearch/mousejack/blob/master/doc/advisories/bastille-3.logitech.public.txt

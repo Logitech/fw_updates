@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Logitech -->
+<component type="firmware">
+  <id>com.logitech.Unifying.RQR12.firmware</id>
+  <name>Logitech Unifying Receiver</name>
+  <summary>Firmware for the Logitech Unifying receiver</summary>
+  <description>
+    <p>
+      A Unifying receiver allows you to connect multiple compatible keyboards
+      and mice to a laptop or desktop computer with a single USB receiver.
+      Updating the firmware on your Unifying receiver improves performance, adds
+      new features and fixes security issues.
+    </p>
+  </description>
+  <provides>
+    <!-- USB\VID_046D&PID_AAAA -->
+    <firmware type="flashed">9d131a0c-a606-580f-8eda-80587250b8d6</firmware>
+    <!-- USB\VID_046D&PID_AAAE -->
+    <firmware type="flashed">d637baf7-3ab5-502a-8169-2545302e44e2</firmware>
+  </provides>
+  <url type="homepage">http://support.logitech.com/en-us/software/unifying</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Proprietary</project_license>
+  <developer_name>Logitech</developer_name>
+  <releases>
+    <release urgency="high" version="RQR12.08_B0030" date="2017-06-26">
+      <checksum filename="RQR12.08_B0030.hex" target="content"/>
+      <description>
+        <p>
+          This release addresses an encrypted keystroke injection issue known
+          as Bastille security issue #13.
+          The vulnerability is complex to replicate and would require a hacker
+          to be physically close to a target.
+        </p>
+      </description>
+    </release>
+  </releases>
+
+  <!-- only newer versions of fwupd know how to write to this hardware -->
+  <requires>
+    <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
+    <firmware compare="regex" version="BOT01.0[0-3]_*">bootloader</firmware>
+  </requires>
+
+</component>

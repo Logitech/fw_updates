@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Logitech -->
+<component type="firmware">
+  <id>com.logitech.RQK62.firmware</id>
+  <name>Logitech Illuminated Living-Room Keyboards K830</name>
+  <summary>Firmware for the K830 keyboard (RQK62.xx)</summary>
+  <description>
+    <p>
+      The K830 is a keyboard with a touchpad and backlit keys.
+    </p>
+  </description>
+  <provides>
+    <!-- UFY\VID_046D&PID_404C -->
+    <firmware type="flashed">3d93dc1c-762d-5df9-a4e7-088a1887893f</firmware>
+  </provides>
+  <url type="homepage">http://www.logitech.com/en-us/product/living-room-keyboard-k830</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Proprietary</project_license>
+  <developer_name>Logitech</developer_name>
+  <releases>
+    <release urgency="high" version="RQK62.01_B0014" date="2017-06-26">
+      <checksum filename="RQK62.01_B0014.dfu" target="content"/>
+      <description>
+        <p>
+          This firmware update is required to render the K830 fully
+          compatible with Unifying receivers with firmwares RQR12.xx where
+          (xx >= 08) and RQR24.xx where (xx >= 06).
+        </p>
+      </description>
+    </release>
+  </releases>
+
+  <!-- only newer versions of fwupd know how to write to this hardware -->
+  <requires>
+    <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
+  </requires>
+
+</component>

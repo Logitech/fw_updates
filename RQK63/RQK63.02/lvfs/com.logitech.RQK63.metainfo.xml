@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Logitech -->
+<component type="firmware">
+  <id>com.logitech.RQK63.firmware</id>
+  <name>Logitech Wireless Touch Keyboards K400 Plus</name>
+  <summary>Firmware for the K400 Plus keyboard (RQK63.xx)</summary>
+  <description>
+    <p>
+      The K400 Plus is a keyboard with a touchpad.
+    </p>
+  </description>
+  <provides>
+    <!-- UFY\VID_046D&PID_404D -->
+    <firmware type="flashed">d8f438d3-5bdb-5175-8be7-97f58c7fa59e</firmware>
+  </provides>
+  <url type="homepage">http://www.logitech.com/en-us/product/wireless-touch-keyboard-k400-plus</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Proprietary</project_license>
+  <developer_name>Logitech</developer_name>
+  <releases>
+    <release urgency="high" version="RQK63.02_B0016" date="2017-06-26">
+      <checksum filename="RQK63.02_B0016.dfu" target="content"/>
+      <description>
+        <p>
+          This firmware update is required to render the K400 Plus fully
+          compatible with Unifying receivers with firmwares RQR12.xx where
+          (xx >= 08) and RQR24.xx where (xx >= 06).
+        </p>
+      </description>
+    </release>
+  </releases>
+
+  <!-- only newer versions of fwupd know how to write to this hardware -->
+  <requires>
+    <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
+  </requires>
+
+</component>

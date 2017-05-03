@@ -1,0 +1,18 @@
+# Copyright (C) 2017 Richard Hughes <richard@hughsie.com>
+
+VENDOR=Logitech
+PROJECT_NAME=Unifying
+VERSION=RQR12.05_B0028
+FIRMWARE_FILES=../RQR12.05_B0028.hex
+METAINFO_FILES=com.logitech.Unifying.RQR12.metainfo.xml
+
+all: $(VENDOR)-$(PROJECT_NAME)-$(VERSION).cab
+
+clean:
+	rm *.cab
+
+check: $(METAINFO_FILES)
+	appstream-util validate-relax $(METAINFO_FILES)
+
+%.cab: $(FIRMWARE_FILES) $(METAINFO_FILES)
+	gcab --create --nopath $@ $(FIRMWARE_FILES) $(METAINFO_FILES)

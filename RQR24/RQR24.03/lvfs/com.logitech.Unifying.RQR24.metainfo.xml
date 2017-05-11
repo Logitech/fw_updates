@@ -2,7 +2,7 @@
 <!-- Copyright 2017 Richard Hughes <richard@hughsie.com> -->
 <component type="firmware">
   <id>com.logitech.Unifying.RQR24.firmware</id>
-  <name>Unifying</name>
+  <name>Logitech Unifying Receiver</name>
   <summary>Firmware for the Logitech Unifying receiver</summary>
   <description>
     <p>

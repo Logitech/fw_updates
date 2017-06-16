@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 Logitech -->
+<component type="firmware">
+  <id>com.logitech.Unifying.MPK01.firmware</id>
+  <name>Logitech K780 Multi-Device Wireless Keyboard</name>
+  <summary>Firmware for the K780 keyboard (MPK01.xx)</summary>
+  <description>
+    <p>
+      The K780 is a keyboard that allows switching among three paired hosts.
+    </p>
+  </description>
+  <provides>
+    <!-- UFY\VID_046D&PID_405B -->
+    <firmware type="flashed">3932ba15-2bbe-5bbb-817e-6c74e7088509</firmware>
+  </provides>
+  <url type="homepage">http://www.logitech.com/en-us/product/k780-multi-device-wireless-keyboard</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Proprietary</project_license>
+  <developer_name>Logitech</developer_name>
+  <releases>
+    <release urgency="high" version="MPK01.03_B0024" date="2017-06-16">
+      <checksum filename="MPK01.03_B0024.dfu" target="content"/>
+      <description>
+        <p>
+          This firmware update is required to render the K780 fully compatible with
+          Unifying receivers with firmwares RQR12.xx where (xx >= 08) and RQR24.xx where
+          (xx >= 06).
+        </p>
+      </description>
+    </release>
+  </releases>
+
+  <!-- only newer versions of fwupd know how to write to this hardware -->
+  <requires>
+    <id compare="ge" version="0.9.2">org.freedesktop.fwupd</id>
+  </requires>
+</component>

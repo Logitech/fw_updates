@@ -9,7 +9,7 @@ METAINFO_FILES=com.logitech.MPK01.metainfo.xml
 all: $(VENDOR)-$(PROJECT_NAME)-$(VERSION).cab
 
 clean:
-	rm *.cab
+	rm -f *.cab
 
 check: $(METAINFO_FILES)
 	appstream-util validate-relax $(METAINFO_FILES)

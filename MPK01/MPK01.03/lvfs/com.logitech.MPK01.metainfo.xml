@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2017 Logitech -->
 <component type="firmware">
-  <id>com.logitech.Unifying.MPK01.firmware</id>
+  <id>com.logitech.MPK01.firmware</id>
   <name>Logitech K780 Multi-Device Wireless Keyboard</name>
   <summary>Firmware for the K780 keyboard (MPK01.xx)</summary>
   <description>
@@ -22,9 +22,9 @@
       <checksum filename="MPK01.03_B0024.dfu" target="content"/>
       <description>
         <p>
-          This firmware update is required to render the K780 fully compatible with
-          Unifying receivers with firmwares RQR12.xx where (xx >= 08) and RQR24.xx where
-          (xx >= 06).
+          This firmware update is required to render the K780 fully
+          compatible with Unifying receivers with firmwares RQR12.xx where
+          (xx >= 08) and RQR24.xx where (xx >= 06).
         </p>
       </description>
     </release>
@@ -32,6 +32,6 @@
 
   <!-- only newer versions of fwupd know how to write to this hardware -->
   <requires>
-    <id compare="ge" version="0.9.2">org.freedesktop.fwupd</id>
+    <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
   </requires>
 </component>

@@ -15,6 +15,8 @@
   <provides>
     <!-- USB\VID_046D&PID_AAAC -->
     <firmware type="flashed">cc4cbfa9-bf9d-540b-b92b-172ce31013c1</firmware>
+    <!-- USB\VID_046D&PID_AAAD -->
+    <firmware type="flashed">87fd7145-3913-50c8-bfcb-86f85006d7d1</firmware>
   </provides>
   <url type="homepage">http://support.logitech.com/en-us/software/unifying</url>
   <metadata_license>CC0-1.0</metadata_license>

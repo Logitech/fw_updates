@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2017 Logitech -->
 <component type="firmware">
-  <id>com.logitech.Unifying.RQR12.firmware</id>
+  <id>com.logitech.Unifying.RQR12.signed.firmware</id>
   <name>Logitech Unifying Receiver</name>
   <summary>Firmware for the Logitech Unifying receiver</summary>
   <description>
@@ -32,9 +32,9 @@
     </release>
   </releases>
 
-  <!-- only newer versions of fwupd know how to write to this hardware -->
+  <!-- requires fwupd version that knows how to write signed firmware -->
   <requires>
-    <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
+    <id compare="ge" version="1.0.3">org.freedesktop.fwupd</id>
     <firmware compare="regex" version="BOT01.0[4-9]_*">bootloader</firmware>
   </requires>
 

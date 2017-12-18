@@ -30,9 +30,9 @@
     </release>
   </releases>
 
-  <!-- only newer versions of fwupd know how to write to this hardware -->
+  <!-- This requires the version of fwupd that supports manual restart of device -->
   <requires>
-    <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
+    <id compare="ge" version="1.0.3">org.freedesktop.fwupd</id>
   </requires>
 
 </component>

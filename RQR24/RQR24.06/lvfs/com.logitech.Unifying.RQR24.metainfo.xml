@@ -20,7 +20,7 @@
   </provides>
   <url type="homepage">http://support.logitech.com/en-us/software/unifying</url>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>Proprietary</project_license>
+  <project_license>LicenseRef-proprietary</project_license>
   <developer_name>Logitech</developer_name>
   <releases>
     <release urgency="high" version="RQR24.06_B0030" date="2017-06-26">

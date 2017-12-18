@@ -15,7 +15,7 @@
   </provides>
   <url type="homepage">http://www.logitech.com/en-us/product/living-room-keyboard-k830</url>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>Proprietary</project_license>
+  <project_license>LicenseRef-proprietary</project_license>
   <developer_name>Logitech</developer_name>
   <releases>
     <release urgency="high" version="RQK62.01_B0014" date="2017-06-26">

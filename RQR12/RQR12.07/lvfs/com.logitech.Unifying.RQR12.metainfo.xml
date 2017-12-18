@@ -12,15 +12,18 @@
       new features and fixes security issues.
     </p>
   </description>
+  <!-- Signed/unsigned versions are split into different components to permit
+       having different <requires> on each even though they share GUIDs -->
   <provides>
     <!-- USB\VID_046D&PID_AAAA -->
     <firmware type="flashed">9d131a0c-a606-580f-8eda-80587250b8d6</firmware>
+
     <!-- USB\VID_046D&PID_AAAE -->
     <firmware type="flashed">d637baf7-3ab5-502a-8169-2545302e44e2</firmware>
   </provides>
   <url type="homepage">http://support.logitech.com/en-us/software/unifying</url>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>Proprietary</project_license>
+  <project_license>LicenseRef-proprietary</project_license>
   <developer_name>Logitech</developer_name>
   <releases>
     <release urgency="high" version="RQR12.07_B0029" date="2017-05-03">

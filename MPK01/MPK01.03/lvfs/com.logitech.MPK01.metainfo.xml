@@ -15,7 +15,7 @@
   </provides>
   <url type="homepage">http://www.logitech.com/en-us/product/k780-multi-device-wireless-keyboard</url>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>Proprietary</project_license>
+  <project_license>LicenseRef-proprietary</project_license>
   <developer_name>Logitech</developer_name>
   <releases>
     <release urgency="high" version="MPK01.03_B0024" date="2017-06-16">

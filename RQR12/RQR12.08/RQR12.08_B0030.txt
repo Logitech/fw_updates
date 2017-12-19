@@ -48,6 +48,15 @@ Modification(s) (with respect to RQR12.07 Build 0029)
 Official communication
  - https://community.logitech.com/s/question/0D531000058b3B7CAI/logitech-response-to-unifying-receiverg900-mouse-research-findings
 
+Warning
+ - A few of Logitech's devices (Wireless Mouse M335, Zone Touch Mouse T400,
+   Wireless Mouse M545, Wireless Mouse M560, Touch Mouse M600, Touch Mouse
+   T620, Wireless Rechargeable Touchpad T650) used to send select buttons in
+   an unencrypted way, and in an effort to protect against this vulnerability,
+   Logitech removed the feature.  Although Logitech does not recommend it,
+   these features may be re-activated by keeping/downgrading the receiver to
+   an older firmware.
+
 
 RQR12.07 Build 0029
 -------------------

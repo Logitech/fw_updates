@@ -50,13 +50,6 @@
           firmware.
         </p>
       </description>
-      <incompatibilities>
-        <firmware compare="regex" version="RQK62.00_*">paired device</firmware>
-        <firmware compare="regex" version="RQK63.0[01]_*">paired device</firmware>
-        <firmware compare="regex" version="MPK01.0[0-2]_*">paired device</firmware>
-        <firmware compare="regex" version="MPK03.0[0-1]_*">paired device</firmware>
-        <firmware compare="regex" version="MPK04.00_*">paired device</firmware>
-      </incompatibilities>
     </release>
   </releases>
 
@@ -64,6 +57,11 @@
   <requires>
     <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
     <firmware compare="regex" version="BOT01.0[0-3]_*">bootloader</firmware>
+    <firmware compare="regex" version="RQK62.00_*">not-child</firmware>
+    <firmware compare="regex" version="RQK63.0[01]_*">not-child</firmware>
+    <firmware compare="regex" version="MPK01.0[0-2]_*">not-child</firmware>
+    <firmware compare="regex" version="MPK03.0[0-1]_*">not-child</firmware>
+    <firmware compare="regex" version="MPK04.00_*">not-child</firmware>
   </requires>
 
 </component>

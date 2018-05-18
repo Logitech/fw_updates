@@ -33,6 +33,7 @@
   <!-- This requires the version of fwupd that supports manual restart of device -->
   <requires>
     <id compare="ge" version="1.0.3">org.freedesktop.fwupd</id>
+    <firmware compare="regex" version="BOT21.*">bootloader</firmware>
   </requires>
 
 </component>

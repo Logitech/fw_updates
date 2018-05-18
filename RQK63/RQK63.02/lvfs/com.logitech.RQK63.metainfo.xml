@@ -33,6 +33,7 @@
   <!-- only newer versions of fwupd know how to write to this hardware -->
   <requires>
     <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
+    <firmware compare="regex" version="BOT22.*">bootloader</firmware>
   </requires>
 
 </component>

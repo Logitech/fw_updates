@@ -28,6 +28,10 @@ Several tools exist to generate RCF4122 UUIDs.  For example, in Pyython:
    `import uuid` \
    `print uuid.uuid5(uuid.NAMESPACE_DNS, 'UFY\VID_046D&PID_xxxx')`
 
-or, using the command-line `uuid` program:
+using the command-line `uuid` program:
 
    `uuid -v 5 'ns:DNS' 'UFY\VID_046D&PID_xxxx'`
+
+or, using the `appstream-util` tool:
+
+   `appstream-util generate-guid 'UFY\VID_046D&PID_xxxx'`

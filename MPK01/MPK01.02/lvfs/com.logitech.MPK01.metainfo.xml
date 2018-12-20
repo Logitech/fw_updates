@@ -35,4 +35,8 @@
     <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
     <firmware compare="regex" version="BOT25.*">bootloader</firmware>
   </requires>
+  <custom>
+    <value key="LVFS::UpdateProtocol">com.logitech.unifying</value>
+  </custom>
+
 </component>

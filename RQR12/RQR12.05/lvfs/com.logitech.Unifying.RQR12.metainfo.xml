@@ -45,4 +45,8 @@
     <firmware compare="regex" version="BOT01.0[0-3]_*">bootloader</firmware>
   </requires>
 
+  <custom>
+    <value key="LVFS::UpdateProtocol">com.logitech.unifying</value>
+  </custom>
+
 </component>

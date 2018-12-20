@@ -43,4 +43,8 @@
     <firmware compare="regex" version="MPK04.00_*">not-child</firmware>
   </requires>
 
+  <custom>
+    <value key="LVFS::UpdateProtocol">com.logitech.unifyingsigned</value>
+  </custom>
+
 </component>

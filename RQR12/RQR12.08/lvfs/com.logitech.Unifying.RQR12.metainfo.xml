@@ -33,19 +33,22 @@
           to be physically close to a target.
         </p>
         <p>
-          A few of Logitech's devices:
-          <ul>
-            <li>Wireless Mouse M335</li>
-            <li>Zone Touch Mouse T400</li>
-            <li>Wireless Mouse M545</li>
-            <li>Wireless Mouse M560</li>
-            <li>Touch Mouse M600</li>
-            <li>Touch Mouse T620</li>
-            <li>Wireless Rechargeable Touchpad T650</li>
-          </ul>
-          used to send select buttons in an unencrypted way, and in an effort
-          to protect against this vulnerability, Logitech removed the
-          feature.  Although Logitech does not recommend it, these features
+          A few of Logitech's devices used to send select buttons in an
+          unencrypted way, and in an effort to protect against this
+          vulnerability, Logitech removed the feature.
+          Affected hardware is:
+        </p>
+        <ul>
+          <li>Wireless Mouse M335</li>
+          <li>Zone Touch Mouse T400</li>
+          <li>Wireless Mouse M545</li>
+          <li>Wireless Mouse M560</li>
+          <li>Touch Mouse M600</li>
+          <li>Touch Mouse T620</li>
+          <li>Wireless Rechargeable Touchpad T650</li>
+        </ul>
+        <p>
+          Although Logitech does not recommend it, these features
           may be re-activated by keeping/downgrading the receiver to an older
           firmware.
         </p>

@@ -31,6 +31,9 @@
       </description>
     </release>
   </releases>
+  <categories>
+    <category>X-Device</category>
+  </categories>
 
   <!-- requires fwupd version that knows how to write signed firmware -->
   <requires>

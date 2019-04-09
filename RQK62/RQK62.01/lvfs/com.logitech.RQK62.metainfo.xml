@@ -29,6 +29,9 @@
       </description>
     </release>
   </releases>
+  <categories>
+    <category>X-Device</category>
+  </categories>
 
   <!-- This requires the version of fwupd that supports manual restart of device -->
   <requires>

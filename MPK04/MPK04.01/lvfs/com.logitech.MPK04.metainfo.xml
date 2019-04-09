@@ -29,6 +29,9 @@
       </description>
     </release>
   </releases>
+  <categories>
+    <category>X-Device</category>
+  </categories>
 
   <!-- only newer versions of fwupd know how to write to this hardware -->
   <requires>

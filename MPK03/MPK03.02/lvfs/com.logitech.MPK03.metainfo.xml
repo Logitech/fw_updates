@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2017 Logitech -->
+<!-- Copyright (C) 2017 Logitech -->
 <component type="firmware">
   <id>com.logitech.MPK03.firmware</id>
-  <name>Logitech K370s and K375s Multi-Device Wireless Keyboards</name>
-  <summary>Firmware for the K370s and K375s keyboards (MPK03.xx)</summary>
+  <name>K370s or K375s Multi-Device Wireless Keyboard</name>
+  <summary>Firmware for the Logitech K370s or K375s Multi-Device Wireless Keyboard (MPK03.xx)</summary>
   <description>
     <p>
       The K370s and K375s are keyboards that allow switching among three
@@ -39,7 +39,6 @@
     <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
     <firmware compare="regex" version="BOT42.*">bootloader</firmware>
   </requires>
-
   <custom>
     <value key="LVFS::UpdateProtocol">com.logitech.unifying</value>
   </custom>

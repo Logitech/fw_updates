@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2017 Logitech -->
+<!-- Copyright (C) 2017 Logitech -->
 <component type="firmware">
   <id>com.logitech.MPK04.firmware</id>
-  <name>Logitech K850 Performance Wireless Keyboards</name>
-  <summary>Firmware for the K850 keyboard (MPK04.xx)</summary>
+  <name>K850 Performance Wireless Keyboard</name>
+  <summary>Firmware for the Logitech K850 Performance Wireless Keyboard (MPK04.xx)</summary>
   <description>
     <p>
       The K850 is a keyboard that allows switching among three paired hosts.
@@ -38,7 +38,6 @@
     <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
     <firmware compare="regex" version="BOT43.*">bootloader</firmware>
   </requires>
-
   <custom>
     <value key="LVFS::UpdateProtocol">com.logitech.unifying</value>
   </custom>

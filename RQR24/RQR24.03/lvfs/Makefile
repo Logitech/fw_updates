@@ -2,14 +2,14 @@
 
 VENDOR=Logitech
 PROJECT_NAME=Unifying
-VERSION=RQ024.03_B0027
+VERSION=RQR24.03_B0027
 FIRMWARE_FILES=../RQR24.03_B0027.hex
 METAINFO_FILES=com.logitech.Unifying.RQR24.metainfo.xml
 
 all: $(VENDOR)-$(PROJECT_NAME)-$(VERSION).cab
 
 clean:
-	rm *.cab
+	rm -f *.cab
 
 check: $(METAINFO_FILES)
 	appstream-util validate-relax $(METAINFO_FILES)

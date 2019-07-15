@@ -5,7 +5,7 @@ Release notes
 RQR12.05 Build 0028
 -------------------
 
-DFU for Logitech Unifying receivers (dongles) with firmware RQR12.xx and
+DFU for the Logitech Unifying Receiver (dongle) with firmware RQR12.xx and
 boot-loader BOT01.yy (yy <= 03).
 
 Firmware
@@ -13,13 +13,13 @@ Firmware
    Version: 05
    USB identifier: 046D/C52B/1205 (Vendor id./Product id./BCD release)
 
-Required boot-loader
+Boot-loader
  - Name: BOT01
    Version: yy <= 03
    USB identifier: 046D/AAAA/01yy (Vendor id./Product id./BCD release)
                    046D/AAAE/01yy (Vendor id./Product id./BCD release)
 
-Incompatible Unifying device(s)
+Incompatible device(s)
  - None
 
 Modification(s)

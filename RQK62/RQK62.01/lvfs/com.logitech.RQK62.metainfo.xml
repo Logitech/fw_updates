@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2017 Logitech -->
+<!-- Copyright (C) 2017 Logitech -->
 <component type="firmware">
   <id>com.logitech.RQK62.firmware</id>
-  <name>Logitech Illuminated Living-Room Keyboards K830</name>
-  <summary>Firmware for the K830 keyboard (RQK62.xx)</summary>
+  <name>Illuminated Living-Room Keyboard K830</name>
+  <summary>Firmware for the Logitech Illuminated Living-Room Keyboard K830 (RQK62.xx)</summary>
   <description>
     <p>
       The K830 is a keyboard with a touchpad and backlit keys.
@@ -38,7 +38,6 @@
     <id compare="ge" version="1.0.3">org.freedesktop.fwupd</id>
     <firmware compare="regex" version="BOT21.*">bootloader</firmware>
   </requires>
-
   <custom>
     <value key="LVFS::UpdateProtocol">com.logitech.unifying</value>
   </custom>

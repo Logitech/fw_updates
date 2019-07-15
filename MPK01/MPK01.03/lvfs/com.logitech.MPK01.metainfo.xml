@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2017 Logitech -->
+<!-- Copyright (C) 2017 Logitech -->
 <component type="firmware">
   <id>com.logitech.MPK01.firmware</id>
-  <name>Logitech K780 Multi-Device Wireless Keyboard</name>
-  <summary>Firmware for the K780 keyboard (MPK01.xx)</summary>
+  <name>K780 Multi-Device Wireless Keyboard</name>
+  <summary>Firmware for the Logitech K780 Multi-Device Wireless Keyboard (MPK01.xx)</summary>
   <description>
     <p>
       The K780 is a keyboard that allows switching among three paired hosts.

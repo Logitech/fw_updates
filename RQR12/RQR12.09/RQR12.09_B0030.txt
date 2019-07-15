@@ -5,7 +5,7 @@ Release notes
 RQR12.09 Build 0030
 -------------------
 
-DFU for Logitech Unifying receivers (dongles) with firmware RQR12.xx and
+DFU for the Logitech Unifying Receiver (dongle) with firmware RQR12.xx and
 boot-loader BOT01.yy (yy >= 04).
 
 Firmware
@@ -13,13 +13,13 @@ Firmware
    Version: 09
    USB identifier: 046D/C52B/1209 (Vendor id./Product id./BCD release)
 
-Required boot-loader
+Boot-loader
  - Name: BOT01
    Version: yy >= 04
    USB identifier: 046D/AAAA/01yy (Vendor id./Product id./BCD release)
                    046D/AAAE/01yy (Vendor id./Product id./BCD release)
 
-Incompatible Unifying device(s)
+Incompatible device(s)
  - Name: RQK62 (Illuminated Living-Room Keyboard K830)
    Version: 00
    Unifying identifier: 404C
@@ -32,7 +32,7 @@ Incompatible Unifying device(s)
    Version: 00, 01, or 02
    Unifying identifier: 405B
    Note: upgrade to MPK01.03 (or newer) is required
- - Name: MPK03 (K370s and K375s Multi-Device Wireless Keyboards)
+ - Name: MPK03 (K370s or K375s Multi-Device Wireless Keyboard)
    Version: 00 or 01
    Unifying identifier: 4061
    Note: upgrade to MPK03.02 (or newer) is required

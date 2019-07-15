@@ -5,7 +5,7 @@ Release notes
 MPK03.02 Build 0009
 -------------------
 
-DFU for Logitech K370s and K375s Multi-Device Wireless Keyboards with
+DFU for the Logitech K370s or K375s Multi-Device Wireless Keyboard with
 firmware MPK03.xx.
 
 Firmware
@@ -16,6 +16,7 @@ Firmware
 Boot-loader
  - Name: BOT42
    Version: any
+   Unifying identifier: 4061
 
 Modification(s)
  - Fix compatibility with Unifying receivers (dongles) RQR12.xx (xx >= 08)

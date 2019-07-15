@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2017 Logitech -->
+<!-- Copyright (C) 2017 Logitech -->
 <component type="firmware">
   <id>com.logitech.RQK63.firmware</id>
-  <name>Logitech Wireless Touch Keyboards K400 Plus</name>
-  <summary>Firmware for the K400 Plus keyboard (RQK63.xx)</summary>
+  <name>Wireless Touch Keyboard K400 Plus</name>
+  <summary>Firmware for the Logitech Wireless Touch Keyboard K400 Plus (RQK63.xx)</summary>
   <description>
     <p>
       The K400 Plus is a keyboard with a touchpad.
@@ -38,7 +38,6 @@
     <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
     <firmware compare="regex" version="BOT22.*">bootloader</firmware>
   </requires>
-
   <custom>
     <value key="LVFS::UpdateProtocol">com.logitech.unifying</value>
   </custom>

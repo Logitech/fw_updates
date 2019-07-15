@@ -5,7 +5,7 @@ Release notes
 RQK63.02 Build 0016
 -------------------
 
-DFU for Logitech Wireless Touch Keyboards K400 Plus with firmware RQK63.xx.
+DFU for the Logitech Wireless Touch Keyboard K400 Plus with firmware RQK63.xx.
 
 Firmware
  - Name: RQK63
@@ -15,6 +15,7 @@ Firmware
 Boot-loader
  - Name: BOT22
    Version: any
+   Unifying identifier: 404D
 
 Modification(s)
  - Fix compatibility with Unifying receivers (dongles) RQR12.xx (xx >= 08)

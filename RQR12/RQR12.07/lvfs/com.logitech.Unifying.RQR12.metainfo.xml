@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2017 Richard Hughes <richard@hughsie.com> -->
+<!-- Copyright (C) 2017 Richard Hughes <richard@hughsie.com> -->
 <component type="firmware">
   <id>com.logitech.Unifying.RQR12.firmware</id>
-  <name>Logitech Unifying Receiver</name>
+  <name>Unifying Receiver</name>
   <name_variant_suffix>RQR12</name_variant_suffix>
-  <summary>Firmware for the Logitech Unifying receiver</summary>
+  <summary>Firmware for the Logitech Unifying receiver (RQR12.xx)</summary>
   <description>
     <p>
       A Unifying receiver allows you to connect multiple compatible keyboards
@@ -13,12 +13,9 @@
       new features and fixes security issues.
     </p>
   </description>
-  <!-- Signed/unsigned versions are split into different components to permit
-       having different <requires> on each even though they share GUIDs -->
   <provides>
     <!-- USB\VID_046D&PID_AAAA -->
     <firmware type="flashed">9d131a0c-a606-580f-8eda-80587250b8d6</firmware>
-
     <!-- USB\VID_046D&PID_AAAE -->
     <firmware type="flashed">d637baf7-3ab5-502a-8169-2545302e44e2</firmware>
   </provides>
@@ -48,7 +45,6 @@
     <id compare="ge" version="0.9.2">org.freedesktop.fwupd</id>
     <firmware compare="regex" version="BOT01.0[0-3]_*">bootloader</firmware>
   </requires>
-
   <custom>
     <value key="LVFS::UpdateProtocol">com.logitech.unifying</value>
   </custom>

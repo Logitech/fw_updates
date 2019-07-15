@@ -5,7 +5,8 @@ Release notes
 RQK62.01 Build 0014
 -------------------
 
-DFU for Logitech Illuminated Living-Room Keyboards K830 with firmware RQK62.xx.
+DFU for the Logitech Illuminated Living-Room Keyboard K830 with firmware
+RQK62.xx.
 
 Firmware
  - Name: RQK62
@@ -15,6 +16,7 @@ Firmware
 Boot-loader
  - Name: BOT21
    Version: any
+   Unifying identifier: 404C
 
 Modification(s)
  - Fix compatibility with Unifying receivers (dongles) RQR12.xx (xx >= 08)

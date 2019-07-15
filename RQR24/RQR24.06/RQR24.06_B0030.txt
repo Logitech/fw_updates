@@ -5,7 +5,7 @@ Release notes
 RQR24.06 Build 0030
 -------------------
 
-DFU for Logitech Unifying receivers (dongles) with firmware RQR24.xx and
+DFU for the Logitech Unifying Receiver (dongle) with firmware RQR24.xx and
 boot-loader BOT03.yy (yy <= 01).
 
 Firmware
@@ -13,13 +13,13 @@ Firmware
    Version: 06
    USB identifier: 046D/C52B/2406 (Vendor id./Product id./BCD release)
 
-Required boot-loader
+Boot-loader
  - Name: BOT03
    Version: yy <= 01
    USB identifier: 046D/AAAC/03yy (Vendor id./Product id./BCD release)
                    046D/AAAD/03yy (Vendor id./Product id./BCD release)
 
-Incompatible Unifying device(s)
+Incompatible device(s)
  - Name: RQK62 (Illuminated Living-Room Keyboard K830)
    Version: 00
    Unifying identifier: 404C
@@ -32,7 +32,7 @@ Incompatible Unifying device(s)
    Version: 00, 01, or 02
    Unifying identifier: 405B
    Note: upgrade to MPK01.03 (or newer) is required
- - Name: MPK03 (K370s and K375s Multi-Device Wireless Keyboards)
+ - Name: MPK03 (K370s or K375s Multi-Device Wireless Keyboard)
    Version: 00 or 01
    Unifying identifier: 4061
    Note: upgrade to MPK03.02 (or newer) is required
@@ -41,7 +41,7 @@ Incompatible Unifying device(s)
    Unifying identifier: 4062
    Note: upgrade to MPK04.01 (or newer) is required
 
-Modification(s) (with respect to RQR24.05 Build 0029)
+Modification(s)
  - Address Bastille security issue #13 Encrypted Keystroke Injection
    https://github.com/BastilleResearch/keyjack/blob/master/doc/advisories/bastille-13.logitech.public.txt
 
@@ -56,59 +56,3 @@ Warning
    Logitech removed the feature.  Although Logitech does not recommend it,
    these features may be re-activated by keeping/downgrading the receiver to
    an older firmware.
-
-
-RQR24.05 Build 0029
--------------------
-
-DFU for Logitech Unifying receivers (dongles) with firmware RQR24.xx and
-boot-loader BOT03.yy (yy <= 01).
-
-Firmware
- - Name: RQR24
-   Version: 05
-   USB identifier: 046D/C52B/2405 (Vendor id./Product id./BCD release)
-
-Required boot-loader
- - Name: BOT03
-   Version: yy <= 01
-   USB identifier: 046D/AAAC/03yy (Vendor id./Product id./BCD release)
-                   046D/AAAD/03yy (Vendor id./Product id./BCD release)
-
-Incompatible Unifying device(s)
- - None
-
-Modification(s) (with respect to RQR24.03 Build 0027)
- - Address Bastille security issue #11 unencrypted keystroke injection fix
-   bypass:
-   https://github.com/BastilleResearch/mousejack/blob/master/doc/advisories/bastille-11.logitech.public.txt
-
-Official communication
- - https://community.logitech.com/s/question/0D531000058b3B7CAI/logitech-response-to-unifying-receiverg900-mouse-research-findings
-
-
-RQR24.03 Build 0027
--------------------
-
-DFU for Logitech Unifying receivers (dongles) with firmware RQR24.xx and
-boot-loader BOT03.yy (yy <= 01).
-
-Firmware
- - Name: RQR24
-   Version: 03
-   USB identifier: 046D/C52B/2403 (Vendor id./Product id./BCD release)
-
-Required boot-loader
- - Name: BOT03
-   Version: yy <= 01
-   USB identifier: 046D/AAAC/03yy (Vendor id./Product id./BCD release)
-                   046D/AAAD/03yy (Vendor id./Product id./BCD release)
-
-Incompatible Unifying device(s)
- - None
-
-Modification(s)
- - Address Bastille security issue #2 keystroke injection:
-   https://github.com/BastilleResearch/mousejack/blob/master/doc/advisories/bastille-2.logitech.public.txt
- - Address Bastille security issue #3 fake mouse:
-   https://github.com/BastilleResearch/mousejack/blob/master/doc/advisories/bastille-3.logitech.public.txt

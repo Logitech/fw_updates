@@ -23,7 +23,7 @@
   <project_license>LicenseRef-proprietary</project_license>
   <developer_name>Logitech</developer_name>
   <releases>
-    <release urgency="high" version="RQR24.07_B0030" date="2017-06-26">
+    <release urgency="low" version="RQR24.07_B0030" date="2017-06-26">
       <checksum filename="RQR24.07_B0030.shex" target="content"/>
       <description>
         <p>

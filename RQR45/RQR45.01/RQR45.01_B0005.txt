@@ -1,0 +1,26 @@
+
+Release notes
+=============
+
+RQR45.01 Build 0005
+-------------------
+
+DFU for the Logitech R500 Laser Presentation Remote Receiver (dongle) with
+firmware RQR45.xx.
+
+Firmware
+ - Name: RQR45
+   Version: 01
+   USB identifier: 046D/C540/4501 (Vendor id./Product id./BCD release)
+
+Boot-loader
+ - Name: BOT03
+   Version: any
+   USB identifier: 046D/AAE1/03yy (Vendor id./Product id./BCD release)
+
+Modification(s)
+ - Address CVE-2019-13054
+   https://nvd.nist.gov/vuln/detail/CVE-2019-13054
+ - Address CVE-2019-13055
+   https://nvd.nist.gov/vuln/detail/CVE-2019-13055
+ - Miscellaneous bug fixes.

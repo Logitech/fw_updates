@@ -1,0 +1,23 @@
+
+Release notes
+=============
+
+RQR44.01 Build 0005
+-------------------
+
+DFU for the Logitech Lightspeed Receiver (dongle) with firmware RQR44.xx.
+
+Firmware
+ - Name: RQR44
+   Version: 01
+   USB identifier: 046D/C53F/4401 (Vendor id./Product id./BCD release)
+
+Boot-loader
+ - Name: BOT72
+   Version: any
+   USB identifier: 046D/AADE/72yy (Vendor id./Product id./BCD release)
+
+Modification(s)
+ - Address CVE-2019-13055
+   https://nvd.nist.gov/vuln/detail/CVE-2019-13055
+ - Miscellaneous bug fixes.

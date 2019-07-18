@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2019 Logitech -->
+<component type="firmware">
+  <id>com.logitech.Unifying.RQR24.firmware</id>
+  <name>Unifying Receiver</name>
+  <name_variant_suffix>RQR24</name_variant_suffix>
+  <summary>Firmware for the Logitech Unifying Receiver (RQR24.xx)</summary>
+  <description>
+    <p>
+      A Unifying receiver allows you to connect multiple compatible keyboards
+      and mice to a laptop or desktop computer with a single USB receiver.
+      Updating the firmware on your Unifying receiver improves performance, adds
+      new features and fixes security issues.
+    </p>
+  </description>
+  <provides>
+    <!-- USB\VID_046D&PID_AAAC -->
+    <firmware type="flashed">cc4cbfa9-bf9d-540b-b92b-172ce31013c1</firmware>
+    <!-- USB\VID_046D&PID_AAAD -->
+    <firmware type="flashed">87fd7145-3913-50c8-bfcb-86f85006d7d1</firmware>
+  </provides>
+  <url type="homepage">http://support.logitech.com/en-us/software/unifying</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <developer_name>Logitech</developer_name>
+  <releases>
+    <release urgency="high" version="RQR24.10_B0036" date="2019-07-18">
+      <checksum filename="RQR24.10_B0036.hex" target="content"/>
+      <description>
+        <p>
+          This release addresses an encryption-key extraction vulnerability.
+          <!-- CVE-2019-13055 -->
+          The vulnerability is complex to replicate and would require a hacker
+          to be physically close to a target.
+        </p>
+        <p>
+          A few of Logitech's devices used to send select buttons in an
+          unencrypted way, and in an effort to protect against this
+          vulnerability, Logitech removed the feature.
+          Affected hardware is:
+        </p>
+        <ul>
+          <li>Wireless Mouse M335</li>
+          <li>Zone Touch Mouse T400</li>
+          <li>Wireless Mouse M545</li>
+          <li>Wireless Mouse M560</li>
+          <li>Touch Mouse M600</li>
+          <li>Touch Mouse T620</li>
+          <li>Wireless Rechargeable Touchpad T650</li>
+        </ul>
+        <p>
+          Although Logitech does not recommend it, these features
+          may be re-activated by keeping/downgrading the receiver to an older
+          firmware.
+        </p>
+      </description>
+    </release>
+  </releases>
+  <categories>
+    <category>X-Device</category>
+  </categories>
+
+  <requires>
+    <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
+    <firmware compare="regex" version="BOT03.0[0-1]_*">bootloader</firmware>
+    <firmware compare="regex" version="RQK62.00_*">not-child</firmware>
+    <firmware compare="regex" version="RQK63.0[01]_*">not-child</firmware>
+    <firmware compare="regex" version="MPK01.0[0-2]_*">not-child</firmware>
+    <firmware compare="regex" version="MPK03.0[0-1]_*">not-child</firmware>
+    <firmware compare="regex" version="MPK04.00_*">not-child</firmware>
+  </requires>
+  <custom>
+    <value key="LVFS::UpdateProtocol">com.logitech.unifying</value>
+  </custom>
+
+</component>

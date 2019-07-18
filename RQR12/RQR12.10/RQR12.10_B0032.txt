@@ -1,0 +1,54 @@
+
+Release notes
+=============
+
+RQR12.10 Build 0032
+-------------------
+
+DFU for the Logitech Unifying Receiver (dongle) with firmware RQR12.xx and
+boot-loader BOT01.yy (yy <= 03).
+
+Firmware
+ - Name: RQR12
+   Version: 10
+   USB identifier: 046D/C52B/1210 (Vendor id./Product id./BCD release)
+
+Boot-loader
+ - Name: BOT01
+   Version: yy <= 03
+   USB identifier: 046D/AAAA/01yy (Vendor id./Product id./BCD release)
+                   046D/AAAE/01yy (Vendor id./Product id./BCD release)
+
+Incompatible device(s)
+ - Name: RQK62 (Illuminated Living-Room Keyboard K830)
+   Version: 00
+   Unifying identifier: 404C
+   Note: upgrade to RQK62.01 (or newer) is required
+ - Name: RQK63 (Wireless Touch Keyboard K400 Plus)
+   Version: 00 or 01
+   Unifying identifier: 404D
+   Note: upgrade to RQK63.02 (or newer) is required
+ - Name: MPK01 (K780 Multi-Device Wireless Keyboard)
+   Version: 00, 01, or 02
+   Unifying identifier: 405B
+   Note: upgrade to MPK01.03 (or newer) is required
+ - Name: MPK03 (K370s or K375s Multi-Device Wireless Keyboard)
+   Version: 00 or 01
+   Unifying identifier: 4061
+   Note: upgrade to MPK03.02 (or newer) is required
+ - Name: MPK04 (MK850 Performance Wireless Keyboard)
+   Version: 00
+   Unifying identifier: 4062
+   Note: upgrade to MPK04.01 (or newer) is required
+
+Modification(s)
+ - Black-list some keystrokes (numbers, etc.) when sent by pointing devices.
+
+Warning
+ - A few of Logitech's devices (Wireless Mouse M335, Zone Touch Mouse T400,
+   Wireless Mouse M545, Wireless Mouse M560, Touch Mouse M600, Touch Mouse
+   T620, Wireless Rechargeable Touchpad T650) used to send select buttons in
+   an unencrypted way, and in an effort to protect against this vulnerability,
+   Logitech removed the feature.  Although Logitech does not recommend it,
+   these features may be re-activated by keeping/downgrading the receiver to
+   an older firmware.

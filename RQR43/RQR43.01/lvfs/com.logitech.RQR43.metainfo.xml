@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2019 Logitech -->
+<component type="firmware">
+  <id>com.logitech.RQR43.signed.firmware</id>
+  <name>G613 Wireless Mechanical Gaming Keyboard Receiver</name>
+  <summary>Firmware for the Logitech G613 Wireless Mechanical Gaming Keyboard Receiver (RQR43.xx)</summary>
+  <description>
+    <p>
+      The Receiver for the G613 Wireless Mechanical Gaming Keyboard allows you
+      to connect it to a laptop or desktop computer with a USB receiver.
+      Updating the firmware on your G613 Wireless Mechanical Gaming Keyboard
+      receiver improves performance, adds new features and fixes security
+      issues.
+    </p>
+  </description>
+  <provides>
+    <!-- USB\VID_046D&PID_AAD2 -->
+    <firmware type="flashed">30a7feba-0efc-58a8-81c3-05d9e7f2b610</firmware>
+  </provides>
+  <url type="homepage">http://www.logitechg.com/en-us/products/gaming-keyboards/g613-wireless-mechanical-gaming-keyboard.html</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <developer_name>Logitech</developer_name>
+  <releases>
+    <release urgency="high" version="RQR43.01_B0009" date="2019-07-18">
+      <checksum filename="RQR43.01_B0009.shex" target="content"/>
+      <description>
+        <p>
+          This release addresses an encryption-key extraction vulnerability.
+          <!-- CVE-2019-13055 -->
+          The vulnerability is complex to replicate and would require a hacker
+          to be physically close to a target.
+        </p>
+      </description>
+    </release>
+  </releases>
+  <categories>
+    <category>X-Device</category>
+  </categories>
+
+  <requires>
+    <id compare="ge" version="x.x.x">org.freedesktop.fwupd</id>
+    <firmware compare="regex" version="BOT03.*">bootloader</firmware>
+  </requires>
+  <custom>
+    <value key="LVFS::UpdateProtocol">com.logitech.unifyingsigned</value>
+  </custom>
+
+</component>

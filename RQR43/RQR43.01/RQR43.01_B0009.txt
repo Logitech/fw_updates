@@ -1,0 +1,24 @@
+
+Release notes
+=============
+
+RQR43.01 Build 0009
+-------------------
+
+DFU for the Logitech G613 Wireless Mechanical Gaming Keyboard Receiver
+(dongle) with firmware RQR43.xx.
+
+Firmware
+ - Name: RQR43
+   Version: 01
+   USB identifier: 046D/C53D/4301 (Vendor id./Product id./BCD release)
+
+Boot-loader
+ - Name: BOT03
+   Version: any
+   USB identifier: 046D/AAD2/03yy (Vendor id./Product id./BCD release)
+
+Modification(s)
+ - Address CVE-2019-13055
+   https://nvd.nist.gov/vuln/detail/CVE-2019-13055
+ - Miscellaneous bug fixes.

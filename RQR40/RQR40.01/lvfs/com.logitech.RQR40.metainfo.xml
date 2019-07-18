@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2019 Logitech -->
+<component type="firmware">
+  <id>com.logitech.RQR40.signed.firmware</id>
+  <name>Powerplay Wireless Charging-System</name>
+  <summary>Firmware for the Logitech Powerplay Wireless Charging-System (RQR40.xx)</summary>
+  <description>
+    <p>
+      The Powerplay Wireless Charging-System is a charging pad for gaming mice.
+      Updating the firmware on your Powerplay Wireless Charging-System
+      improves performance, adds new features and fixes security issues.
+    </p>
+  </description>
+  <provides>
+    <!-- USB\VID_046D&PID_AACA -->
+    <firmware type="flashed">2ac6baac-5233-556b-974e-01f105b03720</firmware>
+  </provides>
+  <url type="homepage">http://www.logitechg.com/en-us/products/gaming-mouse-pads/powerplay-wireless-charging.html</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <developer_name>Logitech</developer_name>
+  <releases>
+    <release urgency="high" version="RQR40.01_B0007" date="2019-07-18">
+      <checksum filename="RQR40.01_B0007.shex" target="content"/>
+      <description>
+        <p>
+          This release addresses an encryption-key extraction vulnerability.
+          <!-- CVE-2019-13055 -->
+          The vulnerability is complex to replicate and would require a hacker
+          to be physically close to a target.
+        </p>
+      </description>
+    </release>
+  </releases>
+  <categories>
+    <category>X-Device</category>
+  </categories>
+
+  <requires>
+    <id compare="ge" version="x.x.x">org.freedesktop.fwupd</id>
+    <firmware compare="regex" version="BOT03.*">bootloader</firmware>
+  </requires>
+  <custom>
+    <value key="LVFS::UpdateProtocol">com.logitech.unifyingsigned</value>
+  </custom>
+
+</component>

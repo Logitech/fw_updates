@@ -1,0 +1,22 @@
+
+Release notes
+=============
+
+MPK04.02 Build 0014
+-------------------
+
+DFU for the Logitech K850 Performance Wireless Keyboard with firmware MPK04.xx.
+
+Firmware
+ - Name: MPK04
+   Version: 02
+   Unifying identifier: 4062
+
+Boot-loader
+ - Name: BOT43
+   Version: any
+   Unifying identifier: 4062
+
+Modification(s)
+ - Improve keystroke processing.
+ - Fine tune wireless communication.

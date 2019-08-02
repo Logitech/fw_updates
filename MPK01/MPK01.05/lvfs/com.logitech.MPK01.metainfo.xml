@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2019 Logitech -->
+<component type="firmware">
+  <id>com.logitech.MPK01.firmware</id>
+  <name>K780 Multi-Device Wireless Keyboard</name>
+  <summary>Firmware for the Logitech K780 Multi-Device Wireless Keyboard (MPK01.xx)</summary>
+  <description>
+    <p>
+      The K780 is a keyboard that allows switching among three paired hosts.
+    </p>
+  </description>
+  <provides>
+    <!-- UFY\VID_046D&PID_405B -->
+    <firmware type="flashed">3932ba15-2bbe-5bbb-817e-6c74e7088509</firmware>
+  </provides>
+  <url type="homepage">http://www.logitech.com/en-us/product/k780-multi-device-wireless-keyboard</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <developer_name>Logitech</developer_name>
+  <releases>
+    <release urgency="low" version="MPK01.05_B0029" date="2019-08-02">
+      <checksum filename="MPK01.05_B0029.dfu" target="content"/>
+      <description>
+        <p>
+          This release improves key mapping.
+        </p>
+      </description>
+    </release>
+  </releases>
+  <categories>
+    <category>X-Device</category>
+  </categories>
+
+  <requires>
+    <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
+    <firmware compare="regex" version="BOT25.*">bootloader</firmware>
+  </requires>
+  <custom>
+    <value key="LVFS::UpdateProtocol">com.logitech.unifyingsigned</value>
+  </custom>
+
+</component>

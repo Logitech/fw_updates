@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2019 Logitech -->
+<component type="firmware">
+  <id>com.logitech.MPK03.firmware</id>
+  <name>K370s or K375s Multi-Device Wireless Keyboard</name>
+  <summary>Firmware for the Logitech K370s or K375s Multi-Device Wireless Keyboard (MPK03.xx)</summary>
+  <description>
+    <p>
+      The K370s and K375s are keyboards that allow switching among three
+      paired hosts.
+    </p>
+  </description>
+  <provides>
+    <!-- UFY\VID_046D&PID_4061 -->
+    <firmware type="flashed">021565af-852e-50cd-9f67-9f00903367b5</firmware>
+  </provides>
+  <url type="homepage">http://www.logitech.com/en-us/product/k375s-multidevice-keyboard</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <developer_name>Logitech</developer_name>
+  <releases>
+    <release urgency="low" version="MPK03.04_B0014" date="2019-08-02">
+      <checksum filename="MPK03.04_B0014.dfu" target="content"/>
+      <description>
+        <p>
+          This release improves key mapping.
+        </p>
+      </description>
+    </release>
+  </releases>
+  <categories>
+    <category>X-Device</category>
+  </categories>
+
+  <requires>
+    <id compare="ge" version="0.9.5">org.freedesktop.fwupd</id>
+    <firmware compare="regex" version="BOT42.*">bootloader</firmware>
+  </requires>
+  <custom>
+    <value key="LVFS::UpdateProtocol">com.logitech.unifyingsigned</value>
+  </custom>
+
+</component>

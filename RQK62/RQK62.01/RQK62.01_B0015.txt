@@ -2,7 +2,7 @@
 Release notes
 =============
 
-RQK62.01 Build 0014
+RQK62.01 Build 0015
 -------------------
 
 DFU for the Logitech Illuminated Living-Room Keyboard K830 with firmware

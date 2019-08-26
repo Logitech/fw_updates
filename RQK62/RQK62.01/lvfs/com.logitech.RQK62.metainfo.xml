@@ -18,8 +18,8 @@
   <project_license>LicenseRef-proprietary</project_license>
   <developer_name>Logitech</developer_name>
   <releases>
-    <release urgency="high" version="RQK62.01_B0014" date="2017-06-26">
-      <checksum filename="RQK62.01_B0014.dfu" target="content"/>
+    <release urgency="high" version="RQK62.01_B0015" date="2017-06-26">
+      <checksum filename="RQK62.01_B0015.dfu" target="content"/>
       <description>
         <p>
           This firmware update is required to render the K830 fully

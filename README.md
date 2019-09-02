@@ -8,8 +8,8 @@ This repository contains official FW update files for Logitech control devices
 UUID generation
 ---------------
 
-The LVFS meta-data defines a universally unique identifier (UUID) for each
-product, as the tag `<firmware type="flashed">` within `<provides>`.
+A universally unique identifier (UUID) is contained in the LVFS meta-data for
+each product, as the tag `<firmware type="flashed">` within `<provides>`.
 
 This identifier is an [RCF4122][1] version 5 UUID, generated using the DNS
 name-space and the string:

@@ -39,7 +39,7 @@
     <firmware compare="regex" version="BOT43.*">bootloader</firmware>
   </requires>
   <custom>
-    <value key="LVFS::UpdateProtocol">com.logitech.unifying</value>
+    <value key="LVFS::UpdateProtocol">com.logitech.unifyingsigned</value>
   </custom>
 
 </component>

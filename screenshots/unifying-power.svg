@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg7384"
+   sodipodi:docname="unifying-power.svg"
+   version="1.1"
+   inkscape:version="0.92.4 (unknown)"
+   height="105mm"
+   width="148mm">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:cy="281.63119"
+     pagecolor="#ffffff"
+     borderopacity="1"
+     showborder="true"
+     inkscape:bbox-paths="false"
+     guidetolerance="10"
+     inkscape:object-paths="false"
+     inkscape:window-width="3840"
+     showguides="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-bbox="true"
+     inkscape:pageshadow="2"
+     inkscape:guide-bbox="true"
+     inkscape:snap-nodes="false"
+     bordercolor="#666666"
+     objecttolerance="10"
+     id="namedview88"
+     showgrid="false"
+     inkscape:window-maximized="1"
+     inkscape:window-x="0"
+     inkscape:snap-global="true"
+     inkscape:window-y="27"
+     gridtolerance="10"
+     inkscape:window-height="1536"
+     inkscape:snap-others="false"
+     inkscape:snap-to-guides="true"
+     inkscape:current-layer="g9377"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:zoom="1.9677419"
+     inkscape:cx="286.25645"
+     inkscape:snap-grids="true"
+     inkscape:pageopacity="1"
+     inkscape:showpageshadow="false"
+     units="mm">
+    <inkscape:grid
+       spacingx="1"
+       spacingy="1"
+       id="grid4866"
+       empspacing="2"
+       enabled="true"
+       type="xygrid"
+       snapvisiblegridlinesonly="true"
+       visible="true"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386">
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4672"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4666"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="figures"
+     transform="translate(-569.10098,-466.14961)"
+     inkscape:groupmode="layer"
+     id="layer12"
+     style="display:inline">
+    <g
+       id="g9377"
+       transform="translate(0,242)">
+      <rect
+         style="color:#000000;overflow:visible;opacity:1;fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect4559"
+         width="142.83557"
+         height="88.741898"
+         x="579.64899"
+         y="366.1153"
+         ry="9.3691597"
+         inkscape:export-xdpi="81.870003"
+         inkscape:export-ydpi="81.870003" />
+      <rect
+         ry="32.623249"
+         y="377.86307"
+         x="607.8667"
+         height="65.246498"
+         width="86.459702"
+         id="rect4551"
+         style="color:#000000;overflow:visible;opacity:1;fill:#22e049;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         inkscape:export-xdpi="81.870003"
+         inkscape:export-ydpi="81.870003" />
+      <rect
+         ry="32.682877"
+         y="377.80338"
+         x="628.70557"
+         height="65.365753"
+         width="65.365753"
+         id="rect4557"
+         style="color:#000000;overflow:visible;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         inkscape:export-xdpi="81.870003"
+         inkscape:export-ydpi="81.870003" />
+      <rect
+         style="color:#000000;display:inline;overflow:visible;opacity:1;fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect4559-6"
+         width="142.83557"
+         height="88.741898"
+         x="779.20905"
+         y="366.1153"
+         ry="9.3691597"
+         inkscape:export-xdpi="81.870003"
+         inkscape:export-ydpi="81.870003" />
+      <rect
+         style="color:#000000;overflow:visible;opacity:1;fill:#cc0000;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect4555-3"
+         width="86.459702"
+         height="65.246498"
+         x="807.42682"
+         y="377.86307"
+         ry="32.623249"
+         inkscape:export-xdpi="81.870003"
+         inkscape:export-ydpi="81.870003" />
+      <rect
+         ry="32.682877"
+         y="377.80338"
+         x="807.36725"
+         height="65.365753"
+         width="65.365753"
+         id="rect4557-5"
+         style="color:#000000;overflow:visible;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         inkscape:export-xdpi="81.870003"
+         inkscape:export-ydpi="81.870003" />
+      <rect
+         style="color:#000000;overflow:visible;opacity:1;fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect4559-2"
+         width="142.83557"
+         height="88.741898"
+         x="978.7691"
+         y="366.1153"
+         ry="9.3691597"
+         inkscape:export-xdpi="81.870003"
+         inkscape:export-ydpi="81.870003" />
+      <rect
+         ry="32.623249"
+         y="377.86307"
+         x="1006.9868"
+         height="65.246498"
+         width="86.459702"
+         id="rect4551-9"
+         style="color:#000000;overflow:visible;opacity:1;fill:#22e049;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         inkscape:export-xdpi="81.870003"
+         inkscape:export-ydpi="81.870003" />
+      <rect
+         ry="32.682877"
+         y="377.80338"
+         x="1027.646"
+         height="65.365753"
+         width="65.365753"
+         id="rect4557-1"
+         style="color:#000000;overflow:visible;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         inkscape:export-xdpi="81.870003"
+         inkscape:export-ydpi="81.870003" />
+      <path
+         style="color:#000000;overflow:visible;opacity:1;fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         d="m 754.32924,395.26262 v 8.36718 h -22.1894 v 13.71289 h 22.1894 v 8.36719 l 15.2246,-15.22266 z"
+         id="rect5602"
+         inkscape:connector-curvature="0"
+         inkscape:export-xdpi="81.870003"
+         inkscape:export-ydpi="81.870003" />
+      <path
+         style="color:#000000;display:inline;overflow:visible;opacity:1;fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+         d="m 953.88934,395.26262 v 8.36718 h -22.1895 v 13.71289 h 22.1895 v 8.36719 l 15.2246,-15.22266 z"
+         id="rect5602-2"
+         inkscape:connector-curvature="0"
+         inkscape:export-xdpi="81.870003"
+         inkscape:export-ydpi="81.870003" />
+    </g>
+  </g>
+</svg>

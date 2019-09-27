@@ -3,6 +3,7 @@
 <component type="firmware">
   <id>com.logitech.Unifying.RQR12.firmware</id>
   <name>Logitech Unifying Receiver</name>
+  <name_variant_suffix>RQR12</name_variant_suffix>
   <summary>Firmware for the Logitech Unifying receiver</summary>
   <description>
     <p>
